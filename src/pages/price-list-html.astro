@@ -1,0 +1,251 @@
+---
+import '../styles/site.css';
+const siteName = "Alpine Hotel For Cats";
+const phone = "01342 323 833";
+const email = "info@alpinehotelforcats.co.uk";
+const address = "The Paddock, Ashurst Wood, East Grinstead";
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Price List – Alpine Hotel For Cats, East Grinstead</title>
+  <meta name="description" content="Boarding fees from £15/day for one cat. Family houses available. Small animal boarding. All food and vet cover included." />
+  
+</head>
+<body>
+
+<!-- Preview Banner -->
+<div style="background:white;color:#374151;padding:8px 16px;text-align:center;font-size:13px;position:sticky;top:0;z-index:50;border-bottom:1px solid #E5E7EB;box-shadow:0 1px 3px rgba(0,0,0,0.05)"><div style="max-width:56rem;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap"><span>Preview redesign for <strong style="color:#111827">Alpine Hotel For Cats</strong></span><a href="https://biscuitweb.co.uk/activate?id=P3224&amp;name=Alpine%20Hotel%20For%20Cats" style="display:inline-flex;align-items:center;padding:4px 14px;background:#111827;color:white;font-weight:700;font-size:11px;border-radius:9999px;text-decoration:none">Like it? Just £20/month</a></div></div>
+
+<!-- Nav -->
+<nav class="bg-brand-accent-deep shadow-md sticky top-10 z-40">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="/P3224" class="flex items-center gap-3">
+      <img src="/P3224/images/logo.jpg" alt="Alpine Hotel For Cats" width="100" height="60" class="rounded" />
+    </a>
+    <ul class="hidden md:flex gap-6 text-sm font-semibold text-white">
+      <li><a href="/P3224" class="hover:text-accent-light transition-colors">Home</a></li>
+      <li><a href="/P3224/about-the-cattery-html" class="hover:text-accent-light transition-colors">About</a></li>
+      <li><a href="/P3224/price-list-html" class="text-accent-light">Price List</a></li>
+      <li><a href="/P3224/open-times-html" class="hover:text-accent-light transition-colors">Open Times</a></li>
+      <li><a href="/P3224/gallery-html" class="hover:text-accent-light transition-colors">Gallery</a></li>
+      <li><a href="/P3224/contact-html" class="hover:text-accent-light transition-colors">Contact</a></li>
+    </ul>
+    <button id="menuBtn" aria-label="Open menu" aria-expanded="false" class="md:hidden text-white p-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+  </div>
+  <div id="mobileMenu" class="hidden md:hidden bg-brand-accent-deep border-t border-white/20 px-4 pb-4">
+    <ul class="flex flex-col gap-3 pt-3 text-white text-sm font-semibold">
+      <li><a href="/P3224" class="block py-1 hover:text-accent-light">Home</a></li>
+      <li><a href="/P3224/about-the-cattery-html" class="block py-1 hover:text-accent-light">About The Cattery</a></li>
+      <li><a href="/P3224/price-list-html" class="block py-1 text-accent-light">Price List</a></li>
+      <li><a href="/P3224/open-times-html" class="block py-1 hover:text-accent-light">Open Times</a></li>
+      <li><a href="/P3224/gallery-html" class="block py-1 hover:text-accent-light">Gallery</a></li>
+      <li><a href="/P3224/contact-html" class="block py-1 hover:text-accent-light">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="bg-brand-accent py-20 text-white text-center">
+  <div class="max-w-3xl mx-auto px-4">
+    <span class="inline-block bg-white/20 border border-white/30 text-white text-xs font-semibold tracking-wider uppercase px-3 py-1 rounded-full mb-5">📍 East Grinstead</span>
+    <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4">Price List</h1>
+    <p class="text-white/85 text-lg">All-inclusive boarding from £15 per day. No hidden extras.</p>
+  </div>
+</section>
+
+<!-- What's Included -->
+<section class="py-12 bg-white">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="text-2xl font-extrabold text-brand-accent mb-6 text-center">Price Includes</h2>
+    <div class="bg-cream rounded-2xl p-6 border border-border">
+      <ul class="grid md:grid-cols-2 gap-3 text-sm text-ink-soft">
+        <li class="flex items-start gap-2"><span class="text-brand-accent font-bold mt-0.5">✓</span> All food and treats (except prescription food)</li>
+        <li class="flex items-start gap-2"><span class="text-brand-accent font-bold mt-0.5">✓</span> Heating of chalets</li>
+        <li class="flex items-start gap-2"><span class="text-brand-accent font-bold mt-0.5">✓</span> Veterinary fees cover (pre-existing conditions excluded)</li>
+        <li class="flex items-start gap-2"><span class="text-brand-accent font-bold mt-0.5">✓</span> Medication if needed</li>
+        <li class="flex items-start gap-2"><span class="text-brand-accent font-bold mt-0.5">✓</span> Cuddles, strokes and TLC</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Boarding Fees -->
+<section class="py-12 bg-brand-bg">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="text-2xl font-extrabold text-brand-accent mb-2 text-center">Boarding Fees</h2>
+    <p class="text-center text-ink-soft text-sm mb-8">Minimum charge: 3 days</p>
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white rounded-2xl border border-border shadow-sm p-6 text-center">
+        <div class="text-5xl font-extrabold text-brand-accent mb-2">£15</div>
+        <div class="text-sm font-semibold text-ink-soft">per day</div>
+        <div class="text-lg font-extrabold text-ink mt-3">1 Cat</div>
+        <div class="text-xs text-ink-soft mt-1">Minimum £45</div>
+      </div>
+      <div class="bg-brand-accent text-white rounded-2xl shadow-lg p-6 text-center">
+        <div class="text-5xl font-extrabold mb-2">£24</div>
+        <div class="text-sm font-semibold text-white/80">per day</div>
+        <div class="text-lg font-extrabold mt-3">2 Cats</div>
+        <div class="text-xs text-white/70 mt-1">Minimum £72</div>
+      </div>
+      <div class="bg-white rounded-2xl border border-border shadow-sm p-6 text-center">
+        <div class="text-5xl font-extrabold text-brand-accent mb-2">£27</div>
+        <div class="text-sm font-semibold text-ink-soft">per day</div>
+        <div class="text-lg font-extrabold text-ink mt-3">3 Cats</div>
+        <div class="text-xs text-ink-soft mt-1">Minimum charge applies</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Family Houses -->
+<section class="py-12 bg-white">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h2 class="text-2xl font-extrabold text-brand-accent mb-4">Large Family Houses</h2>
+      <p class="text-ink-soft leading-relaxed mb-4">We offer the following large family houses. Only cats from the same family may share a house.</p>
+      <p class="text-ink-soft leading-relaxed mb-4">Houses are charged at <strong>£30.00 a day</strong> up to 3 cats. Additional cats at <strong>£3.00 per cat</strong> extra.</p>
+      <div class="bg-cream rounded-xl border border-border p-4 mb-4">
+        <h3 class="font-extrabold text-brand-accent text-sm mb-3">Our Named Houses</h3>
+        <ul class="grid grid-cols-2 gap-2 text-sm text-ink-soft">
+          <li class="flex items-center gap-2">🏡 Bluebell House</li>
+          <li class="flex items-center gap-2">🏡 Cats Cottage</li>
+          <li class="flex items-center gap-2">🏡 Cats Holiday Inn</li>
+          <li class="flex items-center gap-2">🏡 The Laurels</li>
+          <li class="flex items-center gap-2">🏡 Orchard House</li>
+          <li class="flex items-center gap-2">🏡 The Willows</li>
+        </ul>
+      </div>
+    </div>
+    <div class="rounded-2xl overflow-hidden shadow-xl">
+      <img src="/P3224/images/bluebell-house.jpg" alt="Bluebell House" width="950" height="713" class="w-full object-cover" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<!-- Small Animal Boarding -->
+<section class="py-12 bg-brand-bg">
+  <div class="max-w-4xl mx-auto px-4">
+    <div class="grid md:grid-cols-2 gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-extrabold text-brand-accent mb-4">Small Animal Boarding</h2>
+        <p class="text-ink-soft leading-relaxed mb-5">Guinea Pigs and Rabbits can be boarded at the Alpine Bunny Motel. A garden dedicated to these pets.</p>
+        <div class="bg-white rounded-2xl border border-border p-5 mb-4">
+          <h3 class="font-extrabold text-brand-accent text-sm mb-3">🐰 Rabbits</h3>
+          <ul class="space-y-1 text-sm text-ink-soft">
+            <li>1 Rabbit &ndash; £7.50 per day</li>
+            <li>2 Rabbits &ndash; £8.50 per day</li>
+            <li>3 Rabbits &ndash; £10.50 per day</li>
+          </ul>
+        </div>
+        <div class="bg-white rounded-2xl border border-border p-5">
+          <h3 class="font-extrabold text-brand-accent text-sm mb-3">🐹 Guinea Pigs</h3>
+          <ul class="space-y-1 text-sm text-ink-soft">
+            <li>1 Guinea Pig &ndash; £4.00 per day</li>
+            <li>2 Guinea Pigs &ndash; £5.00 per day</li>
+            <li>3 Guinea Pigs &ndash; £6.00 per day</li>
+          </ul>
+        </div>
+      </div>
+      <div class="rounded-2xl overflow-hidden shadow-lg">
+        <img src="/P3224/images/price-list-html-price-list.jpg" alt="Cattery" width="950" height="633" class="w-full object-cover" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Important Notes -->
+<section class="py-12 bg-white">
+  <div class="max-w-3xl mx-auto px-4">
+    <h2 class="text-2xl font-extrabold text-brand-accent mb-6 text-center">Please Note</h2>
+    <div class="space-y-3">
+      <div class="flex items-start gap-3 bg-cream rounded-xl border border-border p-4 text-sm text-ink-soft">
+        <span class="text-brand-accent font-bold text-base mt-0.5">ℹ</span>
+        <span>A full day's board is charged for day of arrival and departure.</span>
+      </div>
+      <div class="flex items-start gap-3 bg-cream rounded-xl border border-border p-4 text-sm text-ink-soft">
+        <span class="text-brand-accent font-bold text-base mt-0.5">ℹ</span>
+        <span>Bank Holidays charged at double the daily rate, except Christmas and New Year when there is a £25.00 surcharge.</span>
+      </div>
+      <div class="flex items-start gap-3 bg-cream rounded-xl border border-border p-4 text-sm text-ink-soft">
+        <span class="text-brand-accent font-bold text-base mt-0.5">ℹ</span>
+        <span>We do not accept credit/debit cards. Cash or cheque only.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-12 bg-brand-accent">
+  <div class="max-w-2xl mx-auto px-4 text-center text-white">
+    <h2 class="text-2xl font-extrabold mb-3">Ready to Book?</h2>
+    <p class="text-white/85 mb-6">Call us to check availability or ask any questions.</p>
+    <div class="flex flex-wrap gap-4 justify-center">
+      <a href="tel:+441342323833" class="bg-white text-brand-accent font-bold px-7 py-3 rounded-full text-sm hover:bg-accent-light transition-colors">📞 01342 323 833</a>
+      <a href="/P3224/contact-html" class="border-2 border-white text-white font-bold px-7 py-3 rounded-full text-sm hover:bg-white/10 transition-colors">Enquire Online</a>
+    </div>
+  </div>
+</section>
+
+<!-- Map -->
+<section class="py-16 bg-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-2xl font-extrabold text-brand-accent mb-6 text-center">Where to Find Us</h2>
+    <div class="rounded-2xl overflow-hidden shadow-lg border border-border">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d40077.14093197563!2d0.020267!3d51.1117569999998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df58bf2a0a7c23%3A0xd8b515f2e5d3c029!2sAlpine+Hotel+For+Cats!5e0!3m2!1sen!2suk!4v1410169206247"
+        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" title="Map to Alpine Hotel For Cats">
+      </iframe>
+    </div>
+    <p class="text-center text-sm text-ink-soft mt-4">{address}</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-brand-accent-deep text-white py-12">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+    <div>
+      <img src="/P3224/images/logo.jpg" alt="Alpine Hotel For Cats" width="140" height="84" class="rounded mb-4" loading="lazy" />
+      <p class="text-white/80 text-sm leading-relaxed">A unique Swiss-design boarding cattery in a woodland setting near East Grinstead. Established 1990.</p>
+    </div>
+    <div>
+      <h3 class="font-extrabold text-base mb-4">Pages</h3>
+      <ul class="space-y-2 text-sm text-white/80">
+        <li><a href="/P3224" class="hover:text-white transition-colors">Home</a></li>
+        <li><a href="/P3224/about-the-cattery-html" class="hover:text-white transition-colors">About The Cattery</a></li>
+        <li><a href="/P3224/price-list-html" class="hover:text-white transition-colors">Price List</a></li>
+        <li><a href="/P3224/open-times-html" class="hover:text-white transition-colors">Open Times</a></li>
+        <li><a href="/P3224/gallery-html" class="hover:text-white transition-colors">Gallery</a></li>
+        <li><a href="/P3224/contact-html" class="hover:text-white transition-colors">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-extrabold text-base mb-4">Get In Touch</h3>
+      <ul class="space-y-2 text-sm text-white/80">
+        <li><a href="tel:+441342323833" class="hover:text-white transition-colors">📞 01342 323 833</a></li>
+        <li><a href="mailto:info@alpinehotelforcats.co.uk" class="hover:text-white transition-colors">✉️ info@alpinehotelforcats.co.uk</a></li>
+        <li>📍 {address}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="max-w-6xl mx-auto px-4 mt-8 pt-8 border-t border-white/20 text-center text-xs text-white/50">
+    &copy; {new Date().getFullYear()} Alpine Hotel For Cats. All rights reserved.
+  </div>
+</footer>
+
+<script>
+  const btn = document.getElementById('menuBtn');
+  const menu = document.getElementById('mobileMenu');
+  btn?.addEventListener('click', () => {
+    const isOpen = menu?.classList.toggle('hidden') === false;
+    btn.setAttribute('aria-expanded', String(isOpen));
+  });
+</script>
+</body>
+</html>

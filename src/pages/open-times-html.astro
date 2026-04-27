@@ -1,0 +1,194 @@
+---
+import '../styles/site.css';
+const siteName = "Alpine Hotel For Cats";
+const phone = "01342 323 833";
+const email = "info@alpinehotelforcats.co.uk";
+const address = "The Paddock, Ashurst Wood, East Grinstead";
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open Times – Alpine Hotel For Cats, East Grinstead</title>
+  <meta name="description" content="Opening times for Alpine Hotel For Cats. Mon–Sat 10am–12noon and 6–7pm. Closed Sundays and Bank Holidays for arrivals/departures." />
+  
+</head>
+<body>
+
+<!-- Preview Banner -->
+<div style="background:white;color:#374151;padding:8px 16px;text-align:center;font-size:13px;position:sticky;top:0;z-index:50;border-bottom:1px solid #E5E7EB;box-shadow:0 1px 3px rgba(0,0,0,0.05)"><div style="max-width:56rem;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap"><span>Preview redesign for <strong style="color:#111827">Alpine Hotel For Cats</strong></span><a href="https://biscuitweb.co.uk/activate?id=P3224&amp;name=Alpine%20Hotel%20For%20Cats" style="display:inline-flex;align-items:center;padding:4px 14px;background:#111827;color:white;font-weight:700;font-size:11px;border-radius:9999px;text-decoration:none">Like it? Just £20/month</a></div></div>
+
+<!-- Nav -->
+<nav class="bg-brand-accent-deep shadow-md sticky top-10 z-40">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="/P3224" class="flex items-center gap-3">
+      <img src="/P3224/images/logo.jpg" alt="Alpine Hotel For Cats" width="100" height="60" class="rounded" />
+    </a>
+    <ul class="hidden md:flex gap-6 text-sm font-semibold text-white">
+      <li><a href="/P3224" class="hover:text-accent-light transition-colors">Home</a></li>
+      <li><a href="/P3224/about-the-cattery-html" class="hover:text-accent-light transition-colors">About</a></li>
+      <li><a href="/P3224/price-list-html" class="hover:text-accent-light transition-colors">Price List</a></li>
+      <li><a href="/P3224/open-times-html" class="text-accent-light">Open Times</a></li>
+      <li><a href="/P3224/gallery-html" class="hover:text-accent-light transition-colors">Gallery</a></li>
+      <li><a href="/P3224/contact-html" class="hover:text-accent-light transition-colors">Contact</a></li>
+    </ul>
+    <button id="menuBtn" aria-label="Open menu" aria-expanded="false" class="md:hidden text-white p-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+  </div>
+  <div id="mobileMenu" class="hidden md:hidden bg-brand-accent-deep border-t border-white/20 px-4 pb-4">
+    <ul class="flex flex-col gap-3 pt-3 text-white text-sm font-semibold">
+      <li><a href="/P3224" class="block py-1 hover:text-accent-light">Home</a></li>
+      <li><a href="/P3224/about-the-cattery-html" class="block py-1 hover:text-accent-light">About The Cattery</a></li>
+      <li><a href="/P3224/price-list-html" class="block py-1 hover:text-accent-light">Price List</a></li>
+      <li><a href="/P3224/open-times-html" class="block py-1 text-accent-light">Open Times</a></li>
+      <li><a href="/P3224/gallery-html" class="block py-1 hover:text-accent-light">Gallery</a></li>
+      <li><a href="/P3224/contact-html" class="block py-1 hover:text-accent-light">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="bg-brand-accent py-20 text-white text-center">
+  <div class="max-w-3xl mx-auto px-4">
+    <span class="inline-block bg-white/20 border border-white/30 text-white text-xs font-semibold tracking-wider uppercase px-3 py-1 rounded-full mb-5">📍 East Grinstead</span>
+    <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4">Open Times</h1>
+    <p class="text-white/85 text-lg">Arrivals, departures and visiting hours.</p>
+  </div>
+</section>
+
+<!-- Opening Hours -->
+<section class="py-16 bg-white">
+  <div class="max-w-3xl mx-auto px-4">
+    <h2 class="text-2xl font-extrabold text-brand-accent mb-8 text-center">Opening Hours</h2>
+    <div class="space-y-3">
+      <div class="flex items-center justify-between bg-cream rounded-xl border border-border px-5 py-4">
+        <span class="font-extrabold text-ink">Monday</span>
+        <span class="text-sm text-ink-soft font-medium">10am &ndash; 12noon &nbsp;&amp;&nbsp; 6pm &ndash; 7pm</span>
+      </div>
+      <div class="flex items-center justify-between bg-cream rounded-xl border border-border px-5 py-4">
+        <span class="font-extrabold text-ink">Tuesday</span>
+        <span class="text-sm text-ink-soft font-medium">10am &ndash; 12noon &nbsp;&amp;&nbsp; 6pm &ndash; 7pm</span>
+      </div>
+      <div class="flex items-center justify-between bg-brand-accent/10 rounded-xl border border-brand-accent/30 px-5 py-4">
+        <div>
+          <span class="font-extrabold text-ink">Wednesday</span>
+          <span class="text-xs text-brand-accent font-semibold ml-2">Note</span>
+        </div>
+        <span class="text-sm text-ink-soft font-medium">10am &ndash; 12noon only<br /><span class="text-xs text-brand-accent">(closed Wednesday evenings)</span></span>
+      </div>
+      <div class="flex items-center justify-between bg-cream rounded-xl border border-border px-5 py-4">
+        <span class="font-extrabold text-ink">Thursday</span>
+        <span class="text-sm text-ink-soft font-medium">10am &ndash; 12noon &nbsp;&amp;&nbsp; 6pm &ndash; 7pm</span>
+      </div>
+      <div class="flex items-center justify-between bg-cream rounded-xl border border-border px-5 py-4">
+        <span class="font-extrabold text-ink">Friday</span>
+        <span class="text-sm text-ink-soft font-medium">10am &ndash; 12noon &nbsp;&amp;&nbsp; 6pm &ndash; 7pm</span>
+      </div>
+      <div class="flex items-center justify-between bg-cream rounded-xl border border-border px-5 py-4">
+        <span class="font-extrabold text-ink">Saturday</span>
+        <span class="text-sm text-ink-soft font-medium">10am &ndash; 12noon &nbsp;&amp;&nbsp; 6pm &ndash; 7pm</span>
+      </div>
+      <div class="flex items-center justify-between bg-ink/5 rounded-xl border border-ink/20 px-5 py-4 opacity-60">
+        <span class="font-extrabold text-ink">Sunday</span>
+        <span class="text-sm text-ink-soft font-semibold">Closed all day</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Additional Info -->
+<section class="py-12 bg-brand-bg">
+  <div class="max-w-3xl mx-auto px-4">
+    <h2 class="text-2xl font-extrabold text-brand-accent mb-6 text-center">Good to Know</h2>
+    <div class="grid md:grid-cols-3 gap-4">
+      <div class="bg-white rounded-2xl border border-border p-5 text-center">
+        <div class="text-3xl mb-3">🏥</div>
+        <h3 class="font-extrabold text-brand-accent text-sm mb-2">24hr Vet Cover</h3>
+        <p class="text-xs text-ink-soft leading-relaxed">24 hour veterinary attendance available for all boarders.</p>
+      </div>
+      <div class="bg-white rounded-2xl border border-border p-5 text-center">
+        <div class="text-3xl mb-3">✅</div>
+        <h3 class="font-extrabold text-brand-accent text-sm mb-2">Council Licensed</h3>
+        <p class="text-xs text-ink-soft leading-relaxed">Licensed by the local council. Full compliance with all regulations.</p>
+      </div>
+      <div class="bg-white rounded-2xl border border-border p-5 text-center">
+        <div class="text-3xl mb-3">🏦</div>
+        <h3 class="font-extrabold text-brand-accent text-sm mb-2">Bank Holidays</h3>
+        <p class="text-xs text-ink-soft leading-relaxed">Closed for arrivals and departures on Bank Holidays.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Image Strip -->
+<section class="py-10 bg-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+      <div class="aspect-video overflow-hidden rounded-xl"><img src="/P3224/images/gallery-html-about-the-cattery-14.jpg" alt="Cattery" width="950" height="633" class="w-full h-full object-cover" loading="lazy" /></div>
+      <div class="aspect-video overflow-hidden rounded-xl"><img src="/P3224/images/gallery-html-about-the-cattery-15.jpg" alt="Cat suites" width="950" height="633" class="w-full h-full object-cover" loading="lazy" /></div>
+      <div class="aspect-video overflow-hidden rounded-xl"><img src="/P3224/images/gallery-html-about-the-cattery-16.jpg" alt="Chalets" width="950" height="633" class="w-full h-full object-cover" loading="lazy" /></div>
+      <div class="aspect-video overflow-hidden rounded-xl"><img src="/P3224/images/gallery-html-26.jpg" alt="Cattery exterior" width="950" height="633" class="w-full h-full object-cover" loading="lazy" /></div>
+    </div>
+  </div>
+</section>
+
+<!-- Map -->
+<section class="py-16 bg-brand-bg">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-2xl font-extrabold text-brand-accent mb-6 text-center">Where to Find Us</h2>
+    <div class="rounded-2xl overflow-hidden shadow-lg border border-border">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d40077.14093197563!2d0.020267!3d51.1117569999998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df58bf2a0a7c23%3A0xd8b515f2e5d3c029!2sAlpine+Hotel+For+Cats!5e0!3m2!1sen!2suk!4v1410169206247"
+        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" title="Map to Alpine Hotel For Cats">
+      </iframe>
+    </div>
+    <p class="text-center text-sm text-ink-soft mt-4">{address}</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-brand-accent-deep text-white py-12">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+    <div>
+      <img src="/P3224/images/logo.jpg" alt="Alpine Hotel For Cats" width="140" height="84" class="rounded mb-4" loading="lazy" />
+      <p class="text-white/80 text-sm leading-relaxed">A unique Swiss-design boarding cattery in a woodland setting near East Grinstead. Established 1990.</p>
+    </div>
+    <div>
+      <h3 class="font-extrabold text-base mb-4">Pages</h3>
+      <ul class="space-y-2 text-sm text-white/80">
+        <li><a href="/P3224" class="hover:text-white transition-colors">Home</a></li>
+        <li><a href="/P3224/about-the-cattery-html" class="hover:text-white transition-colors">About The Cattery</a></li>
+        <li><a href="/P3224/price-list-html" class="hover:text-white transition-colors">Price List</a></li>
+        <li><a href="/P3224/open-times-html" class="hover:text-white transition-colors">Open Times</a></li>
+        <li><a href="/P3224/gallery-html" class="hover:text-white transition-colors">Gallery</a></li>
+        <li><a href="/P3224/contact-html" class="hover:text-white transition-colors">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-extrabold text-base mb-4">Get In Touch</h3>
+      <ul class="space-y-2 text-sm text-white/80">
+        <li><a href="tel:+441342323833" class="hover:text-white transition-colors">📞 01342 323 833</a></li>
+        <li><a href="mailto:info@alpinehotelforcats.co.uk" class="hover:text-white transition-colors">✉️ info@alpinehotelforcats.co.uk</a></li>
+        <li>📍 {address}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="max-w-6xl mx-auto px-4 mt-8 pt-8 border-t border-white/20 text-center text-xs text-white/50">
+    &copy; {new Date().getFullYear()} Alpine Hotel For Cats. All rights reserved.
+  </div>
+</footer>
+
+<script>
+  const btn = document.getElementById('menuBtn');
+  const menu = document.getElementById('mobileMenu');
+  btn?.addEventListener('click', () => {
+    const isOpen = menu?.classList.toggle('hidden') === false;
+    btn.setAttribute('aria-expanded', String(isOpen));
+  });
+</script>
+</body>
+</html>
